@@ -1,0 +1,25 @@
+flow_1:
+  api_data:
+    url: https://your-new-api.com/
+  entities:
+  - entity: product
+    prompt: can you please enter what are you searching ?
+  intent: product_info
+flow_2:
+  api_data:
+    url: https://your-new-api.com/
+  entities:
+  - entity: product
+    prompt: can you please enter what are you searching ?
+  - entity: location
+    prompt: Please enter your location ?
+  - entity: customer_name
+    prompt: Please enter your name ?
+  intent: ask_price
+flow_3:
+  api_data:
+    url: https://your-new-api.com/
+  entities:
+  - entity: order_id
+    prompt: Please enter your order id ?
+  intent: ask_price
