@@ -1,7 +1,7 @@
 import yaml
 import pickle
 
-# Assuming test.py is in the same directory and contains the flow_1, flow_2, and flow_3 dictionaries.
+#test.py contains the flow_1, flow_2, and flow_3 dictionaries.
 from test import flow_1, flow_2, flow_3
 
 def fetch_urls(data):
@@ -51,7 +51,7 @@ add_entity(data, "ask_price", "customer_name", "Please enter your name ?")
 print("Updated data after adding entity:", data)
 
 # Update URL in all flows
-update_url(data, "https://your-new-api.com/")  # Replace with your actual URL
+update_url(data, "https://rasatest.free.beeceptor.com/")  
 print("Updated data after updating URL:", data)
 
 # Delete the "location" entity from flow_1

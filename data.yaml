@@ -1,13 +1,13 @@
 flow_1:
   api_data:
-    url: https://your-new-api.com/
+    url: https://rasatest.free.beeceptor.com/
   entities:
   - entity: product
     prompt: can you please enter what are you searching ?
   intent: product_info
 flow_2:
   api_data:
-    url: https://your-new-api.com/
+    url: https://rasatest.free.beeceptor.com/
   entities:
   - entity: product
     prompt: can you please enter what are you searching ?
@@ -18,7 +18,7 @@ flow_2:
   intent: ask_price
 flow_3:
   api_data:
-    url: https://your-new-api.com/
+    url: https://rasatest.free.beeceptor.com/
   entities:
   - entity: order_id
     prompt: Please enter your order id ?
